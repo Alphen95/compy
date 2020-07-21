@@ -5,7 +5,7 @@ spareStr2 = ""
 spareStr3 = ""
 lastkey = ""
 spareInt = 0
-example_db = {"Send":"I don't have function like that!","test":"print('hello world')","error":"Genereal database searching error."}
+example_db = {"respond":"Responding u","test":"print('hello world')","error":"Genereal database searching error."}
 from time import sleep
 
 def drawCompy(face):
@@ -24,12 +24,6 @@ def askCompy(answerBase):
         print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")
         print("Listening you, my human!")
         spareStr = input("Ask me! >")
-        print("\u2554\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2557")
-        print("\u2551 . . \u2551 \u2551")
-        print("\u2551  -  \u2551 \u2551")
-        print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")
-        print("Thiking, my human...")
-        sleep(1)
         lastkey = "key"
         spareStr2 = list(answerBase.keys())[-1]
         while lastkey != spareStr2 :
