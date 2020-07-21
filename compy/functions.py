@@ -5,6 +5,7 @@ spareStr2 = ""
 spareStr3 = ""
 lastkey = ""
 spareInt = 0
+example_db = {"Send":"I don't have function like that!","test":"print('hello world')","error":"Genereal database searching error."}
 from time import sleep
 
 def drawCompy(face):
@@ -40,17 +41,19 @@ def askCompy(answerBase):
             spareInt = spareInt + 1
         if not(spareBool):
             print("\u2554\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2557")
-            print("\u2551 ^ ^ \u2551 \u2551")
-            print("\u2551  -  \u2551 \u2551")
+            print("\u2551 0 0 \u2551 \u2551")
+            print("\u2551  _  \u2551 \u2551")
             print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")            
-            print("Sowwy, but integwated datwabase did not contained sometwing like your stwing")
+            print(list(answerBase.values())[-1])
         else:
             print("\u2554\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2557")
             print("\u2551 u u \u2551 \u2551")
             print("\u2551  w  \u2551 \u2551")
             print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")
-            print("Look, what I found!")
-            print(list(answerBase.values())[spareInt])
+            try:
+                exec(list(answerBase.values())[spareInt])
+            except:
+                print(list(answerBase.values())[spareInt])
         spareInt = 0
 
         
