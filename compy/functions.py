@@ -22,13 +22,13 @@ def askCompy(answerBase):
         print("\u2551 o o \u2551 \u2551")
         print("\u2551  w  \u2551 \u2551")
         print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")
-        print("Listwening you, my human!")
-        spareStr = input("Asnwew me! >")
+        print("Listening you, my human!")
+        spareStr = input("Ask me! >")
         print("\u2554\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2557")
         print("\u2551 . . \u2551 \u2551")
         print("\u2551  -  \u2551 \u2551")
         print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")
-        print("Thiwking, my human...")
+        print("Thiking, my human...")
         sleep(1)
         lastkey = "key"
         spareStr2 = list(answerBase.keys())[-1]
