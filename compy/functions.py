@@ -20,9 +20,8 @@ def askCompy(answerBase):
     if inited:
         print("\u2554\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2557")
         print("\u2551 o o \u2551 \u2551")
-        print("\u2551  w  \u2551 \u2551")
+        print("\u2551  u  \u2551 \u2551")
         print("\u255a\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u255d")
-        print("Listening you, my human!")
         spareStr = input("Ask me! >")
         lastkey = "key"
         spareStr2 = list(answerBase.keys())[-1]
